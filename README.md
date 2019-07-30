@@ -1,4 +1,4 @@
-# planets
+# planets <img src="man/planets.png" align="right" width="120" />
 
 <!-- badges: start -->
 <!-- badges: end -->
