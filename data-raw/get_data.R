@@ -24,3 +24,18 @@ cols[[which(cols == 'Host star mass (M☉)')]] <- 'Host Star Mass'
 colnames(table) <- cols
 
 planets <- table
+
+
+
+df <- read.csv('https://exoplanetarchive.ipac.caltech.edu/cgi-bin/nstedAPI/nph-nstedAPI?table=exoplanets')
+df %>% glimpse()
+
+
+"
+https://exoplanetarchive.ipac.caltech.edu/cgi-bin/nstedAPI/nph-nstedAPI?table=exoplanets&format=ipac&where=pl_name like 'BD%2B20 594 b'
+"
+
+
+key <- "kj08EO0tadcCIsMSaJjO250UDYGAkdqapXwgxTHs"
+img <- earth_image(key, -100.31008, 25.66779, "2016-01-01")
+

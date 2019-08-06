@@ -6,7 +6,7 @@ Authors@R:
            family = "Jiménez Rico",
            role = c("aut", "cre"),
            email = "aljrico@gmail.com")
-Description: The goal of planets is to provide of very simple and accessible data containing basic information from all known planets.
+Description: The goal of 'planets' is to provide of very simple and accessible data containing basic information from all known planets.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
